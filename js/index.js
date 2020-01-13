@@ -55,3 +55,13 @@ navItems[2].textContent = siteContent["nav"] ["nav-item-3"]
 navItems[3].textContent = siteContent["nav"] ["nav-item-4"]
 navItems[4].textContent = siteContent["nav"] ["nav-item-5"]
 navItems[5].textContent = siteContent["nav"] ["nav-item-6"]
+
+
+navItems.forEach(function(currentValue) {
+  currentValue.style.color= "green"
+});
+
+let nav = document.querySelector("nav");
+const newTag = document.createElement("a");
+newATag.textContent = "prepend";
+nav.prepend(newATag);
