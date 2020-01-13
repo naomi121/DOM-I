@@ -65,3 +65,14 @@ let nav = document.querySelector("nav");
 const newTag = document.createElement("a");
 newATag.textContent = "prepend";
 nav.prepend(newATag);
+
+
+const newATag2 = document.createElement("a");
+newATag2.textContent = "Append";
+nav.appendChild(newATag2);
+
+
+newATag2.style.color = "green";
+newATag2.style.color = "pointer";
+newATag.style.color = "green";
+newATag.style.cursor = "pointer";
